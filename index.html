@@ -5,24 +5,222 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Strona eventowa</title>
     <title>BestShop</title>
 </head>
 <body>
-<nav>
-    <div class="logo">BestShop</div>
-    <ul>
-        <li><a href="#">WHY US</a></li>
-        <li><a href="#">BENEFITS</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">PRICES</a></li>
-    </ul>
+<header>
+<nav class="flex">
+    <div class="logonav container flex">
+        <div class="logo">BestShop
+        </div>
+            <ul class="flex">
+                <li><a href="#">WHY US</a></li>
+                <li><a href="#">BENEFITS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">PRICES</a></li>
+            </ul>
+    </div>
 </nav>
+</header>
+<section class="welcome">
+    <div class="welcome_text flex">
+     <h1>Sell More!</h1>
+    <p>Open shop on our platform and increase your sales</p>
+    <button>Open your shop</button>
+    <div class="background-image flex">
+    </div>
+    <img src="./images/background.png" alt="welcome picture">
+</div>
+</section>
+<section class="stats">
+<h2>The most popular sales platform in country</h2>
 
-<article class="title">
-    <p>Tytuł</p>
-</article>
+
+    <div class="boxes flex">
+        <div class="box flex">
+            <div class="circle flex">
+                <img class="stats_picture" src="./images/Person.svg" alt="">
+            </div>
+            <div class="stats-number">100000+</div>
+            <div class="stats-lyrics">daily entries</div>
+        </div>
+        <div class="box flex">
+            <div class="circle flex">
+                <img class="stats_picture" src="./images/Eye.svg" alt="">
+            </div>
+            <div class="stats-number">100000+</div>
+            <div class="stats-lyrics">seen products every day</div>
+        </div> <div class="box flex">
+        <div class="circle flex">
+            <img class="stats_picture" src="./images/Catalog.svg" alt="">
+        </div>
+        <div class="stats-number">100000+</div>
+        <div class="stats-lyrics">added posts daily</div>
+    </div>
+    </div>
+</section>
+<section class="benefits">
+    <div class="benefits__boxes container">
+        <div class="benefits__box flex ">
+            <div class="benefits__box_text flex ">
+                <div class="benefits__box_title ">Be always first</div>
+                <div class="benefits__box_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            </div>
+            <div class="benefits__box_picture flex ">
+                <img src="./images/Macbook.png" alt="macbook">
+            </div>
+        </div>
+        <div class="benefits__box-phone flex">
+
+            <div class="benefits__box_text-phone flex ">
+                <div class="benefits__box_title ">Your shop is where you are!</div>
+                <div class="benefits__box_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+            </div>
+            <div class="benefits__box_picture-phone flex">
+                <img src="./images/iPhone.png" alt="iPhone">
+            </div>
+        </div>
+
+        <div class="benefits__last">
+            <div class="benefits__box_last flex">
+                <div class="benefits__box_title ">Increase recognition your brand!</div>
+                <div class="benefits__bottom_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+         </div>
+            <div class="benefits__last-pic">
+            <img src="./images/Trumpet.png" alt="Trumpet">
+        </div>
+</div>
+    </div>
+
+
+
+
+
+
+
+
+</section>
+<section class="pricing container">
+<h3>Pricing</h3>
+<div class="pricing_boxes">
+
+<!--Basic-->
+    <div class="pricing__box">
+        <div class="price__types">
+        <div class="pack__type">Basic</div>
+        <div class="price">$0</div>
+        </div>
+        <ul>
+            <li class="details">100 MB HDD</li>
+            <li class="details">1 Subdomain</li>
+            <li class="details">2 E-mails</li>
+            <li class="details x">Two years license</li>
+            <li class="details x">Full support</li>
+        </ul>
+        <a href="#" class="prices__button">Begin</a>
+    </div>
+
+<!--professional-->
+    <div class="pricing__box professional">
+            <div class="price__types">
+                <div class="pack__type professional__pack">Professional</div>
+                <div class="price professional__price">$25</div>
+                <div class="limited__pro">Limited offer</div>
+            </div>
+            <ul>
+                <li class="details">500 MB HDD</li>
+                <li class="details">2 Subdomain</li>
+                <li class="details">5 E-mails</li>
+                <li class="details">One year license</li>
+                <li class="details x">Full support</li>
+            </ul>
+            <a href="#" class="prices__button professional__button">Begin</a>
+    </div>
+
+<!--premium-->
+    <div class="pricing__box premium">
+          <div class="price__types">
+                <div class="pack__type">Basic</div>
+                <div class="price basic__price">$60</div>
+              <div class="limited__premium">Limited offer</div>
+            </div>
+            <ul>
+                <li class="details">2 GB HDD</li>
+                <li class="details">5 Subdomain</li>
+                <li class="details">20 E-mails</li>
+                <li class="details">Two years license</li>
+                <li class="details">Full support</li>
+            </ul>
+            <a href="#" class="prices__button">Begin</a>
+        </div>
+    </div>
+</div>
+</section>
+<section class="contact container">
+    <div class="contact__container">
+        <div class="column__left">
+            <div class="left__title">Any questions?</div>
+            <div class="left__info">Leave your email address or call us!</div>
+            <div class="contact__methods">
+                <a href="mailto:info@bestshop.xyz">info@bestshop.xyz</a>
+                <a href="tel:123456789">123 456 789</a>
+            </div>
+        </div>
+        <div class="column__right">
+            <label class="name label__style" for="name">Name</label>
+            <form>
+                <input type="name" id="name">
+            </form>
+            <label class="email label__style" for="email">E-mail</label>
+            <form>
+
+                <input type="email" id="email"/>
+            </form>
+            <label class="checkbox">
+                <input type="checkbox">
+                <span></span>
+                I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+            </label>
+            <button class="contact__send">Send</button>
+        </div>
+    </div>
+</section>
+<div class="footer">
+    <div class="footer__content container">
+        <div class="logo logo_footer">
+            BestShop
+            <div class="rights_reserved">© 2019 BestShop LTD, All Rights Reserved</div>
+        </div>
+        <div class="social__media">
+            <a href="https://www.facebook.com">
+            <img src="./images/Facebook.svg" alt="">
+            </a>
+            <a href="https://www.twitter.com">
+            <img src="./images/Twitter.svg" alt="">
+            </a>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
 
 
 
